@@ -91,7 +91,7 @@ export default {
 
 这里需要指明的是，因为和普通 Vue 项目不同，Lavas 项目的路由规则是自动生成的。因此当使用 `to` 的 `name` 属性时，需要将路径转化为 __驼峰形式__，这样才能和 Lavas 生成的路由规则一致。例如例子中的 `detailId` 是由文件路径和驼峰规则拼装而成 (`detail` + `_id => detailId`)的。
 
-经过两个简单的步骤，我们的第二个页面也完成了！保存文件，使用 `npm run dev` 启动项目之后，通过浏览器访问 localhost:3000/detail/1 即可看到这个新增的详情页面。
+经过两个简单的步骤，我们的第二个页面也完成了！保存文件，使用 `lavas dev` 启动项目之后，通过浏览器访问 localhost:3000/detail/1 即可看到这个新增的详情页面。
 
 ![step 4](https://boscdn.baidu.com/assets/lavas/codelab/lavas-2.0-sample-step4.png)
 
